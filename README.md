@@ -36,3 +36,7 @@ https://re-volt.gitlab.io/rvgl-launcher/
 ## Play on your Console
 
 Warning: the startup is slow, the screen will be black for few minutes, be patient
+
+## Supported Batocera versions:
+- Batocera 36
+- Batocera 35
