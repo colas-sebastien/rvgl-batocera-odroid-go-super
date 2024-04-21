@@ -19,7 +19,7 @@ https://re-volt.gitlab.io/rvgl-launcher/
 
 ![](img/rvgl_launcher_02.png)
 
-## Install RVGL on batocera SHARE
+## Option 1: Manual instllation: Install RVGL on batocera SHARE
 - Create a directory `roms/ports/revolt` under `SHARE`
 - Copy `packs` and `save` directories from your local installation to `rvgl` you created previously
 
@@ -33,10 +33,18 @@ https://re-volt.gitlab.io/rvgl-launcher/
 
 ![](img/copy_03.png)
 
+## Option 2: Automatic instllation: 
+On linux you can use the script:
+`deploy_rvgl_from_local.sh`
+
+The script will automatically detect the rvgl installation and the mounting point for the sdcard.
+
 ## Play on your Console
 
 Warning: the startup is slow, the screen will be black for few minutes, be patient
 
 ## Supported Batocera versions:
-- Batocera 36
-- Batocera 35
+- Batocera 38
+
+## Supported rvgl version
+- rvgl 23.1030a1
